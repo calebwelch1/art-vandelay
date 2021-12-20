@@ -13,7 +13,22 @@
             </div>
           </div>
         </div>
-        <div class="col-span-12" style="background-color: black; height: 60vh; color: white;">
+        <div class="col-span-12" style="background-color: black; height: 65vh; color: white;">
+          <div class="flex-col justify-evenly h-max" style="margin-top: 8vh;">
+            <p style="font-size: 8rem; margin-bottom: 0; margin-top: 0;">
+              Art Vandelay
+            </p>
+            <div>
+              <p style="font-size: 2rem; margin-bottom: 3vh; margin-top: 0;">
+                Professional Photographer
+              </p>
+              <a  href="https://www.instagram.com/costanzagrams/" target="_blank">
+                <button class="h-8vh w-12vw" style="background-color: transparent; color: white">
+                  Learn More
+                </button>
+              </a>
+            </div>
+          </div>
         </div>
         <div class="col-span-12" style="background-color: blue; height: 100vh; color: white;">
         </div>

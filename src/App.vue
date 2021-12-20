@@ -27,7 +27,7 @@ export default {
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@600&display=swap');
 
 * {
-  font-family: 'Comfortaa', 'Avenir', 'Arial', 'sans-serif' !important
+  font-family: 'Avenir', 'Arial', 'sans-serif' !important
 }
 
 body{

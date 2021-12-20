@@ -1,3 +1,3 @@
-# custom-basic-website-template
+# art vandelay
 
-w/ scss element-ui deploy ...
+Photography of Art Vandelay

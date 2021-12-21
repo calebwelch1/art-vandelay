@@ -30,7 +30,22 @@
             </div>
           </div>
         </div>
-        <div class="col-span-12" style="background-color: blue; height: 100vh; color: white;">
+        <div class="col-span-12" style="background-color: blue; height: 60vh; color: white;">
+          <div class="flex-col justify-evenly h-max">
+            <div class="flex-row w-max justify-center">
+                <img :src="art" class="h-40vh w-18vw mx-auto" style="object-fit: cover;"/>
+              <div class="h-40vh w-40vw mx-auto" style="background-color:yellow;">
+                <div class="flex-col">
+                  <p style="color:white;">
+                  Hey I'm Art!
+                  </p>
+                  <p style="color:white;">
+                  I've always had an eye for design. I was a long time importer/exporter of goggles and long matchsticks befor
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -43,6 +58,18 @@
 </div>
 </template>
 <script>
+import art from '../assets/art.png';
+import bird from '../assets/bird.jpg';
+import cloud from '../assets/cloud.jpg';
+import dog from '../assets/dog.jpg';
+import dogg from '../assets/dogg.jpg';
+import landscape from '../assets/landscape.jpg';
+import smile from '../assets/smile.jpg';
+import spider from '../assets/spider.jpg';
+import tree from '../assets/tree.jpg';
+import tree1 from '../assets/tree1.jpg';
+import tree2 from '../assets/tree2.jpg';
+
 
 export default {
   name: 'HomeRouter',
@@ -52,6 +79,17 @@ export default {
  data() {
   return {
     none: false,
+    art,
+    bird,
+    cloud,
+    dog,
+    dogg,
+    landscape,
+    smile,
+    spider,
+    tree,
+    tree1,
+    tree2,
   }
  },
  methods: {

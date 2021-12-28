@@ -30,7 +30,7 @@
             </div>
           </div>
         </div>
-        <div class="col-span-12" style="background-color: blue; height: 60vh; color: white;">
+        <div class="col-span-12" style="background-color: white; height: 60vh; color: white;">
           <div class="flex-col justify-evenly h-max">
             <div class="flex-row w-max justify-center">
                 <img :src="art" class="h-40vh w-18vw mx-auto" style="object-fit: cover;"/>
@@ -40,7 +40,9 @@
                   Hey I'm Art!
                   </p>
                   <p style="color:white;">
-                  I've always had an eye for design. I was a long time importer/exporter of goggles and long matchsticks befor
+                  I've always had an eye for design. I was a long time importer/exporter of goggles and long matchsticks, one day
+                  a shipping mistake meant that I imported cameras instead of matchsticks and the rest is history. I am available to
+                  photograph weddings, birthdays, special events and Festivus celebrations.
                   </p>
                 </div>
               </div>
@@ -49,7 +51,28 @@
         </div>
       </div>
     </div>
-  <div class="col-span-12 w-full" style="background-color: red; height: 20rem; color: white;">
+  <div class="col-span-12 w-full" style="background-color: white; height: auto; color: white;">
+  <div class="flex-col justify-around h-max">
+            <div class="wrap-content-screen-size w-max justify-between flex-wrap">
+              <img :src="tree1" class="h-60vh w-auto mx-auto" style="object-fit: cover; margin-bottom: 4vh; margin-top: 4vh;"/>
+              <img :src="tree2" class="h-60vh w-auto mx-auto" style="object-fit: cover; margin-bottom: 4vh; margin-top: 4vh;"/>
+            </div>
+          </div>
+  </div>
+  <div class="col-span-12 w-full" style="background-color: white; height: auto; color: white;">
+  <div class="flex-col justify-around h-max">
+            <div class="wrap-content-screen-size w-max justify-around flex-wrap">
+              <img :src="landscape" class="h-40vh w-80vw mx-auto" style="object-fit: cover; margin-bottom: 4vh; margin-top: 4vh;"/>
+            </div>
+          </div>
+  </div>
+    <div class="col-span-12 w-full" style="background-color: white; height: auto; color: white;">
+  <div class="flex-col justify-around h-max">
+            <div class="wrap-content-screen-size w-max justify-between flex-wrap">
+              <img :src="dog" class="h-40vh w-auto mx-auto" style="object-fit: cover; margin-bottom: 4vh; margin-top: 4vh;"/>
+              <img :src="dogg" class="h-40vh w-auto mx-auto" style="object-fit: cover; margin-bottom: 4vh; margin-top: 4vh;"/>
+            </div>
+          </div>
   </div>
   <div class="col-span-12 w-full" style="background-color: yellow; height: 6rem; color: white;">
   footer :)
@@ -155,5 +178,17 @@ overflow: hidden;
 
 /deep/.el-tabs__item {
   color: #b7b7b7;
+}
+
+  .wrap-content-screen-size {
+  display: flex;
+  flex-direction: column;
+  }
+
+@media screen and (min-width: 510px) {
+  .wrap-content-screen-size {
+  display: flex;
+  flex-direction: row;
+  }
 }
 </style>
